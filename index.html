@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coin</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Coin Data</h1>
+            <div class="filtersection">
+                <div class="search">
+                    <input type="text" id="search-input" placeholder="Enter by Name or Symbol">
+                    <input type="button" id="sort-by-mkt-cap" class="button" value="Sort by Mkt Cap">
+                    <input type="button" id="sort-by-percentage" class="button" value="Sort by Percentage">
+                </div>
+            </div>
+            <div class="table-section">
+                <table class="table-container">
+                    <thead>
+                        <th>Name</th>
+                        <th>Symbol</th>
+                        <th>Current Price</th>
+                        <th>Total Volume</th>
+                        <th>Percentage Change</th>
+                        <th>Mkt Cap</th>
+                    </thead>
+                    <tbody class="table-body"></tbody>
+                </table>
+            </div>
+        </main>
+        <script src="./script/script.js"></script>
+    </body>
+    </html>
